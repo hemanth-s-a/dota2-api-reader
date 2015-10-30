@@ -1,2 +1,3 @@
 *.class
-DownloadDriver.java
+*.matchDetails
+apiKey
