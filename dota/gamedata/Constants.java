@@ -9,6 +9,7 @@ public class Constants {
 	public static final String minPlayers = "min_players";
 	public static final String accountID = "account_id";
 	public static final String startAtMatchID = "start_at_match_id";
+	public static final String matchID = "match_id";
 
 	public static final String jsonResult = "result";
 	public static final String jsonMatches = "matches";

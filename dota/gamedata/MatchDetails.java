@@ -51,6 +51,14 @@ public class MatchDetails {
 		return buildURL (Defaults.minPlayers, Defaults.startAtMatchID, Defaults.accountID);
 	}
 
+	public String buildMatchURL (long matchID) {
+		String matchDetailsURL = Constants.matchDetailsURL;
+		matchDetailsURL += "?" + Constants.apiKeyString + "=" + apiKey;
+		matchDetailsURL += "&" + Constants.matchID + "=" + matchID;
+
+		return matchDetailsURL;
+	}
+
 	public String getDataFromURL (URL url) {
 		StringBuilder inputText = new StringBuilder();
 		InputStream is = null;
